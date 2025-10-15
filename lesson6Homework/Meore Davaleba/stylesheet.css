@@ -1,0 +1,67 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    color: white;
+    background: #1D4350;
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+    background: linear-gradient(to right, #A43931, #1D4350);
+    /* ეს ძაან მომწონს და საიტი ვიპოვე მაგისთვის uigradients.com */
+}
+
+span {
+    font-style: italic;
+}
+
+.fotkebi {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.fotka:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 20px;
+}
+
+.text   {
+    margin: 20px;
+    margin-top: 50px;
+    border: solid white 5px;
+    border-radius: 27px;
+    padding: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+    color: black;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+tr {
+    background-color: white;
+}
+
+.ranking {
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+}
+
+.w:hover{
+    color: aqua;
+}
+
