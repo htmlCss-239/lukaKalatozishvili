@@ -1,0 +1,44 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px, solid, black;
+    border-radius: 10%;
+}
+
+#chua {
+    width: 800px;
+    height: 550px;
+}
+
+#sportuni {
+    width: 800px;
+    height: 550px;
+}
+
+table,tr,th {
+    border: 2px, black, solid;
+    border-collapse: collapse;
+    
+}
+
+th {
+    background-color: cyan;
+}
+
+td{
+    background-color: orange;
+    border: dashed, 2px, brown;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 450px;
+    text-align: center;
+}
+
+#icon, #e, #l {
+    display: inline-block;
+}
