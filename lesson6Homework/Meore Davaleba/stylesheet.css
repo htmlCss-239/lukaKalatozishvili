@@ -30,7 +30,7 @@ p {
     font-size: 20px;
 }
 
-.text   {
+.pTagii  {
     margin: 20px;
     margin-top: 50px;
     border: solid white 5px;
@@ -64,4 +64,54 @@ tr {
 .w:hover{
     color: aqua;
 }
+
+.ranking tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.ranking tr:nth-child(odd) {
+    background-color: azure;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 2px double;
+    padding: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 60px;
+    border-radius: 24px;
+}
+
+.btn {
+    width: 80px;
+}
+
+.text {
+    width: 300px;
+    height: 60px;
+    border-radius: 24px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.text:hover {
+    background-color: azure;
+}
+
+.text:focus {
+    background-color: bisque;
+}
+
+.btn:hover {
+    background-color: azure;
+}
+
+.btn:active {
+    background-color: bisque;
+}
+
+
 
