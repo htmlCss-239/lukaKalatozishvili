@@ -1,0 +1,52 @@
+.imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    height: 330px;
+}
+
+.tablica {
+    display: inline-block;
+    border: 2px, dashed, black;
+    background-color: azure;
+    
+}
+
+th {
+    border: 2px, solid, black;
+    background-color: aliceblue;
+}
+
+td {
+    border: 2px, solid, black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.textebi {
+    text-align: center;
+}
+
+.aliga {
+    align-self: center;
+}
+
+body {
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+
+}
+
+form {
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+

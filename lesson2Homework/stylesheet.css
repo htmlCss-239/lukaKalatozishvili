@@ -1,0 +1,36 @@
+p {
+    text-align: center;  
+    color: rgb(135, 12, 156);
+
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    border: 5px, solid, #000000;
+    border-radius: 15%;
+}
+
+#mainText {
+    text-align: left;
+}
+
+h1 {
+    color: #3FA7D6;
+}
+
+#opinion {
+    height: 200px;
+    width: 350px;
+    margin-left: 38%;
+}
+
+#submit {
+    color: navy;
+    margin-left: 50%;
+    margin-top: 7px;
+}
+
+#sityva {
+    font-weight: bolder;
+}
