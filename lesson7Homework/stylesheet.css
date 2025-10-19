@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+    color: white;
+    margin: 0;
+}
+
+header {
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px; 
+    border: solid 2px black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: darkgray;
+    position: sticky;
+    top: 0;
+    height: 20px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ a:hover {
+    background-color: gainsboro;
+    padding: 20px;
+ }
+
+ p {
+    border: 1px solid white;
+    text-align: end;
+    font-size: 15px;
+    margin: 50px;
+
+ }
+
+ .tablica {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+ }
+
+ table, td, th {
+    border: white solid 1px;
+    border-collapse: collapse;   
+    padding: 20px;
+    text-align: center;
+ }
+
+ .www:hover {
+    font-size: 32px;
+    color: blanchedalmond;
+ }
+
+ 
+
+ 
