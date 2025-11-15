@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open platform for all Gamers">
+    <meta name="keywords" content="Games, Buy, Gaming, Explore, Fun, Platform">
+    <meta name="author" content="Luka Kalatozishvili">
+    <title>About Us | Plyx</title>
+    <link rel="icon" href="../IMGS/favicon.ico">
+    <link rel="stylesheet" href="../CSS/aboutUs.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="../IMGS/plyx-logo.png" id="plyxLogo" alt="Plyx Logo" onclick="window.location.href='index.html';" style="cursor: pointer;">
+            <div class="dropdown">
+                <a href="../HTML/index.html" class="dropbtn">Explore ▾</a>
+                    <div class="dropdown-content">
+                        <a href="../HTML/index.html#sales">Sales</a>
+                        <a href="../HTML/index.html#reviews">Reviews</a>
+                        <a href="../HTML/index.html#leaderboards">Leaderboard</a>
+                    </div>
+            </div>
+            <a href="../HTML/library.html" class="home">Library</a> 
+            <a href="../HTML/blogs.html" class="blog">Blogs</a>
+            <a href="../HTML/aboutUs.html" class="aboutUs">About Us</a>
+            <a href="../HTML/contactUs.html" class="contact">Contact Us</a>
+            <a href="../HTML/joinUs.html" class="joinus">Join Us</a>
+        </div>
+        <a class="burger" id="burger"><i class="fa-solid fa-bars"></i></a>
+
+    </header>
+
+    <main class="about-section">
+        <h1 class="about-title">About PLYX</h1>
+        <p class="about-intro">
+           We are dedicated to bringing gamers together, offering the latest game releases, news, and blogs, all in one sleek and modern platform.  
+           Whether you’re here to discover new titles, share experiences, or just stay updated, PLYX is built by gamers, for gamers.
+        </p>
+
+        <div class="mission-vision">
+            <div class="mission">
+            <h2>🎯 Our Mission</h2>
+            <p>To connect players with the games they love — fast, simple, and exciting.</p>
+            </div>
+            <div class="vision">
+            <h2>🚀 Our Vision</h2>
+            <p>To become the ultimate platform for discovering, sharing, and enjoying games worldwide.</p>
+            </div>
+        </div>
+
+        <div class="creator">
+            <h2>👤 The Creator</h2>
+            <p> PLYX is crafted with passion by <b>@Zane</b>, a dedicated gamer and developer.  
+      Every pixel and line of code is designed to enhance your gaming journey and bring the community closer together.</p>
+        </div>
+
+        <div class="features">
+            <div id="explore-card" class="feature-card">
+            <h3>🕹️ Explore Games</h3>
+            <p>Find trending titles and hidden gems in one place.</p>
+            </div>
+            <div class="feature-card">
+            <h3>📰 Game Blogs</h3>
+            <p>Stay updated with news, reviews, and gaming stories.</p>
+            </div>
+            <div class="feature-card">
+            <h3>💬 Community</h3>
+            <p>Join discussions and share your favorite moments.</p>
+            </div>
+            <div id="unlock-card" class="feature-card">
+            <h3>🔐 Unlock More</h3>
+            <p>Register to access premium content and exclusive posts.</p>
+            </div>
+        </div>
+
+        <div class="join-section">
+            <h2>Ready to Level Up?</h2>
+            <a href="../HTML/joinUs.html" class="join-btn">Join PLYX</a>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+        <div class="footer-left">
+            <img src="../IMGS/plyx-logo.png" alt="Plyx Logo" class="footer-logo">
+            <p class="footer-text">Open platform for all gamers.</p>
+        </div>
+        <div class="footer-center">
+            <a href="../HTML/index.html">Explore</a>
+            <a href="../HTML/library.html">Library</a>
+            <a href="../HTML/blogs.html">Blogs</a>
+            <a href="../HTML/aboutUs.html">About Us</a>
+            <a href="../HTML/contactUs.html">Contact Us</a>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.instagram.com" class="social-icon"><img src="../IMGS/instagram.png" alt="Twitter Logo"></a>
+            <a href="https://github.com" class="social-icon"><img src="../IMGS/github.png" alt="Github Logo"></a>
+            <a href="https://www.facebook.com" class="social-icon"><img src="../IMGS/facebook.png" alt="Facebook Logo"></a>
+        </div>
+    </div>
+
+        <div class="footer-bottom">
+        <p>&copy; 2025 Plyx. All rights reserved.</p>
+     </div>
+
+    </footer>
+
+    <script>
+    const burger = document.getElementById('burger');
+    const menu = document.querySelector('.menu');
+
+    burger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    });
+    </script>
+
+</body>
+</html>
