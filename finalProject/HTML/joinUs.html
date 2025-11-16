@@ -133,6 +133,32 @@
         menu.classList.toggle('active');
         });
 
+        document.querySelector(".sign-up form").onsubmit = function(e) {
+        e.preventDefault();
+        var email = this.querySelectorAll("input")[1].value;
+        var pass = this.querySelectorAll("input")[2].value;
+        if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+        alert("Enter a valid email");
+        } else if (pass.length < 8) {
+        alert("Password must be at least 8 characters");
+        } else {
+        alert("Sign Up successful!");
+        }
+    }
+
+        document.querySelector(".sign-in form").onsubmit = function(e) {
+        e.preventDefault();
+        var email = this.querySelectorAll("input")[0].value;
+        var pass = this.querySelectorAll("input")[1].value;
+        if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+        alert("Enter a valid email");
+        } else if (pass.length < 8) {
+        alert("Password must be at least 8 characters");
+        } else {
+        alert("Logged in!");
+        }
+    }
+
     </script>
 </body>
 </html>
